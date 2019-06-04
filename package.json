@@ -1,0 +1,19 @@
+{
+  "name": "newlife20190528",
+  "version": "1.0.0",
+  "description": "js 基础学习 ---------------------------- day1（2019-05-28） 函数的学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solutionbasewang/newlife20190528.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solutionbasewang/newlife20190528/issues"
+  },
+  "homepage": "https://github.com/solutionbasewang/newlife20190528#readme"
+}
