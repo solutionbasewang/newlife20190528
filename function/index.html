@@ -5,14 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="./function.js"></script>
-    <script>
-    (function(){
-        console.log(a.f1());
-    })()
-    </script>
+    <script src="./function1.js"></script>
+    <script src="./constructor.js"></script>
+    <script src="./apply_call.js"></script>
+    
     <title>函数测试</title>
 </head>
 <body>
-    
+    <button id="btn">button</button>
 </body>
+<script>
+    (function(){
+        var button = new Button();
+        var btn = document.getElementById("btn");
+        btn.addEventListener("click",button.click);
+        // console.log(a.f1());
+    })()
+    
+    </script>
 </html>
