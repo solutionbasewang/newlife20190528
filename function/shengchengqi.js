@@ -175,3 +175,19 @@ var csr1 = cs1.next();
 console.log(csr1.value+"-"+csr1.done);
 var csr2 = cs1.next();
 console.log(csr2.value+"-"+csr2.done);
+//生成器函数带返回值
+function* sc1(){
+    yield "a";
+    return "b";
+    yield "c";
+}
+let list=[];
+for(let c of sc1()){
+    list.push(c);
+}
+console.log(list);
+var items = sc1();
+var i1=items.next();
+console.log(i1.value);
+var i2=items.next();
+console.log(i2.value);
